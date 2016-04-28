@@ -1,0 +1,5 @@
+Iteration
+Ver 0.1
+-do items
+-do item manager
+-do item genator
