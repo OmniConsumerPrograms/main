@@ -1,0 +1,22 @@
+stat IDs
+50	- un-KO
+100 - HP
+125 - HP & MP
+150 - MP
+200 - Attack
+210 - Defence
+220 - Attack Speed
+230 - Magic Attack
+240 - Magic Defence
+
+prefixes	- effect boost
+Low			- 1x
+Mid			- 2x
+High		- 5x
+Max			- 10x or 100%
+
+ID | name			| effect type					| effect | stat
+1  | Potion			| healing HP					| 10%	 | 100
+5  | Elixir			| restoring MP					| 10%	 | 150
+9  | Mid-kit		| restoring HP/MP				| 20%	 | 125
+13 | Revival tag	| reviving from OK at 25% hp	| 25%	 | 50

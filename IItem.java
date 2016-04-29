@@ -12,4 +12,6 @@ public interface IItem
 	public String getEffectType();
 	
 	public double getEffect();
+	
+	public int getPFLimit();
 }
