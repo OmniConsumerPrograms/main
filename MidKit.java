@@ -1,18 +1,18 @@
 // Brad Howard
-// OCP Elixir
+// OCP Mid-kit
 
-public class Elixir implements IItem
+public class MidKit implements IItem
 {
 	private int ID;
 	private double effect;
 	private int stat;
 	private int prefixLimit = 4;
 	
-	public Elixir()
+	public MidKit()
 	{
-		ID = 5;
-		effect = 10.0;
-		stat = 150;
+		ID = 9;
+		effect = 20.0;
+		stat = 120;
 	}
 	
 	public int getID()
@@ -22,7 +22,7 @@ public class Elixir implements IItem
 	
 	public String getName()
 	{
-		return "Elixir";
+		return "Mid-Kit";
 	}
 	
 	public int getStat()
@@ -32,7 +32,7 @@ public class Elixir implements IItem
 	
 	public String getEffectType()
 	{
-		return "Restoring MP";
+		return "restoring HP/MP";
 	}
 	
 	public double getEffect()
@@ -44,4 +44,4 @@ public class Elixir implements IItem
 	{
 		return prefixLimit;
 	}
-}
+} 

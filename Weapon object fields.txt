@@ -1,0 +1,11 @@
+Weapon Abits	- Type				- func
+Prefix			- Prefix			- a decor type of addon to buff or debuff
+Name			- String			- Base name of the weapon
+Attack			- int + random bit	- damage range (min <= n <= max)
+Accuracy		- double			- % to hit number
+Range			- int				- number of squares of attack
+Speed			- int				- used to cal if target can dodge the attack
+Weight			- double			- used to see if a character can equip the weapon
+Durability		- int				- how many time the weapon can be used before it breaks
+Value			- double			- the amount of in game cash the weapon cost to buy, fix, and sell
+Tier			- int				- used to see if the character's level is high enought to equip the weapon

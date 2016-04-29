@@ -10,7 +10,7 @@ public class Potion implements IItem
 	
 	public Potion()
 	{
-		ID = 1
+		ID = 1;
 		effect = 10.0;
 		stat = 100;
 	}

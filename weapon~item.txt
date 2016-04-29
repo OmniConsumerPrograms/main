@@ -1,0 +1,29 @@
+Weapons
+
+base - interface : Weapon
+
+Types 	- Short, Mid, Long
+Short 	- Swords, Knife, Dagger
+Mid		- Spear, Lance, Halberd
+Long	- Bow, Crossbow, Other type of ranged weapons
+
+Support Items
+Healing
+Buffing
+Reparing
+Disspelling
+
+Combat item
+Bombs
+Gas Jars
+Debuffing
+Holy Hand Grenade (Auto-Kill Item)
+
+Armor
+Heavy
+Medium
+Light
+
+Excessory
+Rings
+other things

@@ -14,3 +14,10 @@
 14	- mid rt
 15	- high rt
 16	- max rt
+17	- low rk
+18	- mid rk
+19	- high rk
+20	- max rk
+21	- dp
+22	- dr
+23	- dpa
