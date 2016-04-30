@@ -1,13 +1,15 @@
 // Brad Howard
 // OCP item object
 
+package itemset;
+
 public interface IItem
 {
 	public int getID();
 	
 	public String getName();
 	
-	public int getStat();
+	public int getEventID();
 	
 	public String getEffectType();
 	

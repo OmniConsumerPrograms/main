@@ -1,18 +1,20 @@
 // Brad Howard
 // OCP Mid-kit
 
+package itemset;
+
 public class MidKit implements IItem
 {
 	private int ID;
 	private double effect;
-	private int stat;
+	private int eventID;
 	private int prefixLimit = 4;
 	
 	public MidKit()
 	{
 		ID = 9;
 		effect = 20.0;
-		stat = 120;
+		eventID = 120;
 	}
 	
 	public int getID()
@@ -25,9 +27,9 @@ public class MidKit implements IItem
 		return "Mid-Kit";
 	}
 	
-	public int getStat()
+	public int getEventID()
 	{
-		return stat;
+		return eventID;
 	}
 	
 	public String getEffectType()

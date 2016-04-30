@@ -1,18 +1,20 @@
 // Brad Howard
 // OCP Elixir
 
+package itemset;
+
 public class Elixir implements IItem
 {
 	private int ID;
 	private double effect;
-	private int stat;
+	private int eventID;
 	private int prefixLimit = 4;
 	
 	public Elixir()
 	{
 		ID = 5;
 		effect = 10.0;
-		stat = 150;
+		eventID = 150;
 	}
 	
 	public int getID()
@@ -25,9 +27,9 @@ public class Elixir implements IItem
 		return "Elixir";
 	}
 	
-	public int getStat()
+	public int getEventID()
 	{
-		return stat;
+		return eventID;
 	}
 	
 	public String getEffectType()

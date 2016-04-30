@@ -1,18 +1,20 @@
 // Brad Howard
-// OCP potion
+// OCP Revival tag
 
-public class Potion implements IItem
+package itemset;
+
+public class RevivalTag implements IItem
 {
 	private int ID;
 	private double effect;
-	private int stat;
+	private int eventID;
 	private int prefixLimit = 4;
 	
-	public Potion()
+	public RevivalTag()
 	{
-		ID = 1;
-		effect = 10.0;
-		stat = 100;
+		ID = 13;
+		effect = 25.0;
+		eventID = 50;
 	}
 	
 	public int getID()
@@ -22,17 +24,17 @@ public class Potion implements IItem
 	
 	public String getName()
 	{
-		return "Potion";
+		return "Mid-Kit";
 	}
 	
-	public int getStat()
+	public int getEventID()
 	{
-		return stat;
+		return eventID;
 	}
 	
 	public String getEffectType()
 	{
-		return "Healing HP";
+		return "restoring HP/MP";
 	}
 	
 	public double getEffect()
