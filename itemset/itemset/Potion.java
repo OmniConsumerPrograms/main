@@ -1,20 +1,20 @@
 // Brad Howard
-// OCP Elixir
+// OCP potion
 
 package itemset;
 
-public class Elixir implements IItem
+public class Potion implements IItem
 {
 	private int ID;
 	private double effect;
 	private int eventID;
-	private int prefixLimit = 4;
+	private int prefixLimit = 1;
 	
-	public Elixir()
+	public Potion()
 	{
-		ID = 5;
+		ID = 1;
 		effect = 10.0;
-		eventID = 150;
+		eventID = 100;
 	}
 	
 	public int getID()
@@ -24,7 +24,7 @@ public class Elixir implements IItem
 	
 	public String getName()
 	{
-		return "Elixir";
+		return "Potion";
 	}
 	
 	public int getEventID()
@@ -34,7 +34,7 @@ public class Elixir implements IItem
 	
 	public String getEffectType()
 	{
-		return "Restoring MP";
+		return "Healing HP";
 	}
 	
 	public double getEffect()
@@ -46,4 +46,4 @@ public class Elixir implements IItem
 	{
 		return prefixLimit;
 	}
-}
+} 

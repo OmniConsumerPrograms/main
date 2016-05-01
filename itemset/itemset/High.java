@@ -8,7 +8,7 @@ public class High extends PrefixSystem
 	private int prefixID = 2;
 	private double effectBoost = 5.0;
 	
-	public High(Item item)
+	public High(IItem item)
 	{
 		super.item = item;
 	}

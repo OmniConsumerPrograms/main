@@ -1,20 +1,20 @@
 // Brad Howard
-// OCP Mid-kit
+// OCP Revival tag
 
 package itemset;
 
-public class MidKit implements IItem
+public class RevivalTag implements IItem
 {
 	private int ID;
 	private double effect;
 	private int eventID;
-	private int prefixLimit = 4;
+	private int prefixLimit = 1;
 	
-	public MidKit()
+	public RevivalTag()
 	{
-		ID = 9;
-		effect = 20.0;
-		eventID = 120;
+		ID = 13;
+		effect = 25.0;
+		eventID = 50;
 	}
 	
 	public int getID()
@@ -24,7 +24,7 @@ public class MidKit implements IItem
 	
 	public String getName()
 	{
-		return "Mid-Kit";
+		return "Revival Tag";
 	}
 	
 	public int getEventID()

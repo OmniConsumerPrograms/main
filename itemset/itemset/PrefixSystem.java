@@ -5,5 +5,5 @@ package itemset;
 
 public abstract class PrefixSystem implements IItem
 {
-	protected Item item;
+	protected IItem item;
 }

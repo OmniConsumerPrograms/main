@@ -33,8 +33,8 @@ Event IDs
 340 - Attack, item, Normal
 350 - Attack, item, magic
 360 - Attack, box, mimic
-370 - Attack, box, boobytrap
-380 - Attack, floor, boobytrap
+370 - Attack, box, booby-trap
+380 - Attack, floor, booby-trap
 390 - Attack, floor, trapdoor
 
 4-Stat nerfs
@@ -46,18 +46,18 @@ Event IDs
 5-Battle events
 500 - Escape battle
 510 - Stops enemies attack
-520 - Nullifes Stat Nerfs
-530 - Nullifes Stat Boosts
+520 - Nullifies Stat Nerfs
+530 - Nullifies Stat Boosts
 540 - Battle won
 550 - Battle lost
 560 - Force end of battle
 
-6-Item modifcations
+6-Item modifications
 600 - Fix durability
 610 - Add prefix
 620 - Remove prefix
-630 - Reroll item
-640 - Reroll weapon
+630 - Re-roll item
+640 - Re-roll weapon
 650 - Add item
 660 - Add weapon
 
@@ -67,15 +67,27 @@ Event IDs
 720 - user added item
 730 - item used
 
+8-Start up
+800 - Start game
+810 - build item list
+820 - build weapon list
+830 - build equipment list
+840 - build character list
+850 - build monster list
+860 - build floors
+870 - build dungeon
+880 - build save
+890 - build party
+
 9-Gamemaster Events
 900 - Adventure state
 910 - Battle state
 920 - floor change
-930 - random encornter
-940 - fix encornter
-950 - boss encornter
-960 - paus menu
-970 - invortory menu
+930 - random encounter
+940 - fix encounter
+950 - boss encounter
+960 - pause menu
+970 - innovatory menu
 980 - Auto-next floor
 990 - Auto-win battle
 
@@ -85,7 +97,7 @@ Event IDs
 2 - random number +
 3 - random number -
 4 - boosted stats
-5 - negive number error
+5 - negative number error
 6 - effect error
 7 - effect mis-match error
 8 - event override
@@ -100,7 +112,7 @@ Max			- 10x or 100%	- 3
 ID | name			| effect type					| effect | EvID | prefixLimit
 1  | Potion			| healing HP					| 10%	 | 100	| 4
 5  | Elixir			| restoring MP					| 10%	 | 140	| 4
-9  | Mid-kit		| restoring HP/MP				| 20%	 | 120	| 4
+9  | Med-kit		| restoring HP/MP				| 20%	 | 120	| 4
 13 | Revival tag	| reviving from OK at 25% hp	| 25%	 | 50	| 4
 17 | Repair kit		| restoring durability			| 10%	 | 600	| 4
 21 | Dis-poison		| cures poison					| 100%	 | 10	| 0

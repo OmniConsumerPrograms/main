@@ -3,12 +3,12 @@
 
 package itemset;
 
-public class Mid extends PrefixSystem
+public class Low extends PrefixSystem
 {
-	private int prefixID = 1;
-	private double effectBoost = 2.0;
+	private int prefixID = 0;
+	private double effectBoost = 1.0;
 	
-	public Mid(Item item)
+	public Low(IItem item)
 	{
 		super.item = item;
 	}
@@ -25,12 +25,12 @@ public class Mid extends PrefixSystem
 	
 	public String getName()
 	{
-		return "Mid " + item.getName();
+		return "Low " + item.getName();
 	}
 	
 	public int getEventID()
 	{
-		return 1 + item.getEventID();
+		return 0 + item.getEventID();
 	}
 	
 	public String getEffectType()
