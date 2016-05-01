@@ -8,11 +8,11 @@ public class ItemGenTester
 		ItemGenerator IG = new ItemGenerator(IM);
 		int eventID = 000;
       
-		eventID = IG.buildList();
+		eventID = IG.build();
       
       if(eventID == 810)
       {
-		   for(int index = 0; index < 17; index++)
+		 for(int index = 0; index < 17; index++)
          {
             System.out.println("ID: " + IM.get(index).getID());
             System.out.println("EvID: " + IM.get(index).getEventID());

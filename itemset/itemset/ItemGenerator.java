@@ -21,7 +21,7 @@ public class ItemGenerator
 		this.IM = IM;
 	}
 	
-	public int buildList()
+	public int build()
 	{
 		Scanner in = null;
 		File input = new File("itemList.txt");
